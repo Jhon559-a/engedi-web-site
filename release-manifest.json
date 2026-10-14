@@ -1,0 +1,86 @@
+{
+  "created_at": "2026-10-14T09:59:28.052441+00:00",
+  "details": {
+    "admin_included": false,
+    "images": 0,
+    "notice": "Public catalog snapshot. Update by rebuilding after local admin changes.",
+    "products": 0
+  },
+  "files": {
+    "assets/ai-look-a.png": {
+      "sha256": "ce3094e9cf116173cbc832f8c994493cceaacf02fc649282828709e31cf4d728",
+      "size": 1858446
+    },
+    "assets/ai-look-b.png": {
+      "sha256": "94a19962b510b983100767ece09989e951774580066e86abfe74f44b2daa69cd",
+      "size": 1770360
+    },
+    "assets/beige.svg": {
+      "sha256": "ca6a76d67a916c904df5b60e7df5c2dce5fecfec4043eee10f0c78b5561f1b4e",
+      "size": 1055
+    },
+    "assets/blue.svg": {
+      "sha256": "321b7795f29348a3f17d7d009aa3ae856d4325e1354adc5aae0c126ac21b074d",
+      "size": 1504
+    },
+    "assets/charcoal.svg": {
+      "sha256": "ea09dd0056d46ea30505c93a64b920a394c4bd72bc1578683300fc91b287cf1d",
+      "size": 1055
+    },
+    "assets/editorial.jpg": {
+      "sha256": "7e4714132042af32d43448dcb583684c4da53d35038c915f9ae644a84785ac1e",
+      "size": 93123
+    },
+    "assets/favicon.svg": {
+      "sha256": "dc3221ab258378e68a4b33888ecd6faab740dcbf82cf682059b2261ea7619e02",
+      "size": 171
+    },
+    "assets/navy.svg": {
+      "sha256": "c29dbc88e3872adf91752c397a7347085921dc209dd5ae9e661aa8c765275d3f",
+      "size": 1287
+    },
+    "assets/placeholder.svg": {
+      "sha256": "6654f34fa2d565c9261e52dd0a2a660946ee4f7c9732fc11f97c9430ab18e56f",
+      "size": 235
+    },
+    "assets/sand.svg": {
+      "sha256": "3fffd01d4f2c5d5a5530111e4d42c50bf90adb8f3aa6ca60d3fa1f6570d45d95",
+      "size": 1287
+    },
+    "assets/white.svg": {
+      "sha256": "996744b8317e3a8afd88c09ea2f14b88eef29b1820fa542403fc40155039f76f",
+      "size": 1504
+    },
+    "catalog.json": {
+      "sha256": "a097217981d399a52d325708ac3db997c226504028dc7a5da4d786a298386184",
+      "size": 127
+    },
+    "editorial-motion.js": {
+      "sha256": "96289f76c60c08b2df9d2a64622b71325c1f1e7ca3691e8728cabe6f116d8dc3",
+      "size": 6454
+    },
+    "editorial.css": {
+      "sha256": "339736df2a3896a62fedc0a562d2e3e071bc61185016e98c91c20c6d317ba749",
+      "size": 16503
+    },
+    "index.html": {
+      "sha256": "0da2767c44076db58804c4d4f37801131d09ad0e36fa08d503ff6e5bff19f1a1",
+      "size": 15015
+    },
+    "site-config.js": {
+      "sha256": "bcd3bef86a73c2e6a749953fb7b07cd4ab8c0e69134af00a7e319845511ee739",
+      "size": 64
+    },
+    "store.css": {
+      "sha256": "50805b34f8239d269c965ef0fc65f565173f34031b7c5557d23098c991f7bba7",
+      "size": 31990
+    },
+    "store.js": {
+      "sha256": "0de678403486e4bebebc4e07df46c4ac1eccb0714a6f51fa534aa50840f4616a",
+      "size": 47602
+    }
+  },
+  "format": "engedi-release-v1",
+  "kind": "static-catalog",
+  "private": false
+}

@@ -1,0 +1,30 @@
+# Free catalog only. Upload the generated release directory, never the working project.
+services:
+  - type: web
+    name: engedi-atelier
+    runtime: static
+    buildCommand: "true"
+    staticPublishPath: ./public
+    autoDeployTrigger: off
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: X-Frame-Options
+        value: DENY
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
+      - path: /*
+        name: Permissions-Policy
+        value: camera=(), microphone=(), geolocation=()
+      - path: /catalog.json
+        name: Cache-Control
+        value: no-cache
+      - path: /index.html
+        name: Cache-Control
+        value: no-cache
+      - path: /site-config.js
+        name: Cache-Control
+        value: no-cache
